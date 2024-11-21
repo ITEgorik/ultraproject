@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: white;
+}
+
+.student {
+    width: 300px;
+    background-color: rgb(108,131,108);
+    padding: 40px;
+    border-radius: 10px;
+    transition: 2s  all;
+    margin-top: 10 px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10 px;
+}
+
+h2 {
+    color: white;
+}
+
+.student img {
+    width:300px;
+    border-radius:30px;
+}
+
+
+.student:hover {
+    opacity: 0,2;
+    background-color: yellow;
+}
+
+.box::before,
+.box:after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    widht: calc(100%+20 px);
+    height
+
+}
